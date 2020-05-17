@@ -1,0 +1,58 @@
+body {
+    background-color: whitesmoke;
+}
+
+.calculadora {
+    margin-top: 8%;
+    border: 1px solid black;
+    padding: 25px;
+    background-color: #036;
+    border-radius: 8px;
+
+}
+
+input {
+    width: 100%;
+}
+
+button {
+    width: 100%;
+    border-radius: 5px;
+    height: 60px;
+    box-shadow: 10px 10px 5px -10px rgba(0, 0, 0, 0.2);
+    margin: 3px;
+    font-size: 25px;
+}
+
+button:active {
+    color: #FFF;
+    border: 1px solid #333;
+    box-shadow: inset 0 1px 1px #000, 0px 1px #E6E6E6;
+}
+
+.digito {
+    background-color: #0007;
+    color: white;
+}
+
+.apagar {
+    background-color: red;
+    color: white;
+}
+
+#igual {
+    background-color: #000;
+    color: white;
+}
+
+.func {
+    background-color: whitesmoke;
+    color: black;
+}
+
+#tela {
+    margin-bottom: 30px;
+    text-align: right;
+    height: 45px;
+    box-shadow: 10px 10px 5px -10px rgba(0, 0, 0, 0.2);
+}
